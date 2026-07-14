@@ -6,7 +6,7 @@ const {
   addProduct,
   getProducts,
   getSingleProduct,
-} = require("../controllers/productController");
+} = require("../controllers/productcontroller");
 
 router.post("/", addProduct);
 
